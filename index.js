@@ -35,7 +35,7 @@ app.use("/api/cont", contactRoutes);
 app.get("/api", async(req, res)=>{
     const data = {
         status: "Success",
-        message: "Welcome to API/Server of Project Management",
+        message: "Welcome to API/Server",
     }
 
     res.status(200).send(data)
