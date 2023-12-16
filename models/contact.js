@@ -37,7 +37,7 @@ const contactSchema = new mongoose.Schema({
 
 }, {timestamps: true});
 
-userSchema.plugin(uniqueValidator);
+contactSchema.plugin(uniqueValidator);
 
 const Contact = mongoose.model("Contact", contactSchema);
 
